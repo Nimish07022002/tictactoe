@@ -1,9 +1,10 @@
 import React from "react";
+import Board from './components/board'
 
-export default () => (
+const App= () => (
   <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <h1>this is me Nimish Suri</h1>
-    <p>Hard to get more minimal than this React app.</p>
+    <h1>TIC TAC TOE</h1>
+    <Board />
   </>
 );
+export default App
