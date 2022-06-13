@@ -1,12 +1,12 @@
 import React from "react";
 // import "../styles/square.style.css"
 
-const square=(prop)=>{
+const Square=({value,onClick})=>{
     return( 
     <>
-       <button className="square" type="button">{prop.value}</button>
+       <button className="square" type="button" onClick={onClick}>{value}</button>
        {/* <div>{prop.children}</div> */}
     </>
     );
 }
-export default square 
+export default Square 
